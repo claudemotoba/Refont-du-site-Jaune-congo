@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <title>detail</title>
+</head>
+<body>
+    <div id="parti_fixe">
+        <header>
+            <ul>
+                <li class="font first"><a href="">Cultivons un autre monde!</a></li>
+                <li class="font flex_end"><a href="sass.html">Infos qualité</a></li>
+                <li class="font flex_end"><a href="badges.html">Infos livraisons</a></li>
+                <li class="font flex_end"><a href="sass.html"> Infos paiements</a></li>
+                <li class="flex_end"><a href="facebook.html" class="space"><i class="fab fa-facebook-f icc"></i></a></li>
+                <li class="flex_end"><a href="instagram.html" class="space"><i class="fab fa-instagram icc"></i></a></li>
+                <li class="flex_end"><a href="fenvelope.html" class="space"><i class="far fa-envelope icc"></i></a></li>
+                <li class="flex_end"><a href="phone.html" class="space"><i class="fas fa-phone-alt icc"></i></a></li>
+            </ul>
+        </header>
+        <nav>
+              <ul>
+                <li><img src="image/Logo_Jaune_Congo_GilroyFont-01-transparent.jpg" alt="" id="image"></li>
+                <li><a href="#">Legumes</a></li>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Herbes aromatiques</a></li>
+                <li><a href="#">Paniers hebdomadaires</a></li>
+                <li><a href="#">Plus ˅</a></li>
+                <li><a href="#"  class="connexion">Connexion</a></li>
+                <li><a href="#">Panier/$0.00<i class="fas fa-shopping-basket"></i></a></li>
+              </ul>
+        </nav>
+      </div>
+      <div id="div_cache">
+          
+      </div>
+      <main>
+        <div class="container">
+            <div id="item">
+          
+              <div class="col">
+                <img src=<%= produit.image %> alt="">
+              </div>
+          
+              <div class="col">
+                <ul class="petit-menu" >
+                  <li><a href="/">ACCUEIL</a></li>
+                  <li><a href="/">AUTRES</a></li>
+                </ul>
+                <h3><%= produit.name %></h3>
+          
+                <span class="sous-bar"></span>
+          
+                <p class="para-qt">$ <span class="qt"><%= produit.prixKilo %></span>/Kilo</p>
+                <p class="para-qt">$ <span class="qt"><%= produit.prixBouquet %></span>/bouquet de 25 grammes</p>
+                <p class="para-qt">$ <span class="qt"><%= produit.prixBotte %></span>/botte de 500 grammes</p>
+          
+                <p class="desc"><%= produit.description %></p>
+                <h6><%= produit.qteDispo %> en stock</h6>
+          
+                <a class="control plus" data-target="<%=produit.id%>" href="#">+</a>
+                <input type="text" id="<%=produit.id%>" name="" value="1">
+                <a class="control moins"data-target="<%=produit.id%>" href="#">-</a>
+                <br>
+                <button type="button" name="button">AJOUTER AU PANIER</button>
+          
+                <span class="line"> </span>
+          
+                <p class="souspara">
+                  Catégorie : Autres <br><br>
+                  Vous aimez nos produits? Partagez notre page sur vos réseaux sociaux et obtenez 5% de réduction sur votre commande!
+                </p>
+                <br>
+                <a class="btn-social fb"> <span class="iconify" data-icon="brandico:facebook" data-inline="false"></span> Partager!</a>
+                <a class="btn-social lk"><span class="iconify" data-icon="bx:bxl-linkedin" data-inline="false"></span> Partager!</a>
+                <a class="btn-social tw"><span class="iconify" data-icon="ant-design:twitter-outlined" data-inline="false"></span> Partager!</a>
+          
+                <ul class="social-icons">
+                  <li><a href="#"><span class="iconify" data-icon="jam:facebook-circle" data-inline="false"></span></a></li>
+                  <li><a href="#"><span class="iconify" data-icon="jam:twitter-circle" data-inline="false"></span></a></li>
+                  <li><a href="#"><span class="iconify" data-icon="uil:envelope" data-inline="false"></span></a></li>
+                  <li><a href="#"><span class="iconify" data-icon="typcn:social-pinterest-circular" data-inline="false"></span></a></li>
+                  <li><a href="#"><span class="iconify" data-icon="ion:logo-linkedin" data-inline="false"></span></a></li>
+                </ul>
+          
+              </div>
+          
+              <div class="col navigation">
+                    <a class="nav" href=<%= `/produits/${produit.id-1}` %>> <span class="iconify" data-icon="bx:bx-left-arrow-circle" data-inline="false"></span></a>
+                    <a class="nav" href=<%= `/produits/${produit.id+1}` %>><span class="iconify" data-icon="bx:bx-right-arrow-circle" data-inline="false"></span></a>
+              </div>
+
+            </div>
+          </div>
+      </main>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/957ae1f962.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
