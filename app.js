@@ -4,7 +4,7 @@ const mysql = require('mysql');
 const ejs = require('ejs');
 
 
-const PORT = 8080;
+const PORT = 9090;
 
 const connection = mysql.createConnection({
     host:'localhost',
@@ -32,13 +32,14 @@ server.get('/produits',(req,res)=>{
     });
 })
 
-server.get('/produits/:id',(req,res)=>{
-    connection.query(`select * from products where id=${req.params.id}`, (erreur,resultat)=>{
-      if(erreur) throw erreur
+ server.get('/produits/:id',(req,res)=>{
+    console.log("PARAM : ",req.params.id);
+     connection.query(`select * from products where id=${parseInt(req.params.id)}`, (erreur,resultat)=>{
+       if(erreur) throw erreur
 
-      return res.render("produits/detail", { produit : resultat[0] })
-    })
-})
+       return res.render("produits/detail", { produit : resultat[0] })
+     })
+ })
 
 server.listen(PORT, () => {
     console.log(`Le serveur tourne sur le port ${PORT}`);

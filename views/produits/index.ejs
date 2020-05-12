@@ -111,21 +111,21 @@
             <h1><span>Nos produits cette semaine</span></h1>
             <div class="container">
                 <div class="items">
-                <%for (pro of produits) {%>
-                    <div class="carte">
-                        <a href="#">  <img src=<%= pro.image %> alt=""></a>
-                        <p>
-                        <span><b><%= pro.name%></b></span><br>
-                        <span> $<%= pro.prixKilo%><%= pro.prixBouquet%><%= pro.prixBotte%>/ pièce</span><br>
-                        <span>Quantité encore disponible: <br> <%=pro.qteDispo%></span>
-                        </p>
-                        <button class="controls moins" >-</button>
-                        <input class="qt aa" value="1">
-                        <button class="controls plus plusplus">+</button>
-                        <button type="button" name="button" class="btn_ajouter">AJOUTER AU PANIER</button>
+                    <% for (pro of produits) { %>
+                        <div class="carte">
+                            <a href="/produits/<%= pro.id %>">  <img src="<%= pro.image %>" alt=""></a>
+                            <p>
+                            <span><b><%= pro.name %></b></span><br>
+                            <span> $<%= pro.prixKilo %><%= pro.prixBouquet %><%= pro.prixBotte %>/ pièce</span><br>
+                            <span>Quantité encore disponible: <br> <%= pro.qteDispo %></span>
+                            </p>
+                            <button class="controls moins" >-</button>
+                            <input class="qt aa" value="1">
+                            <button class="controls plus plusplus">+</button>
+                            <button type="button" name="button" class="btn_ajouter">AJOUTER AU PANIER</button>
+                        </div>
+                    <% } %>
                     </div>
-                <%}%>
-                </div>
             </div>
         </section>
         <section>
