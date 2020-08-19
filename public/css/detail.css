@@ -1,0 +1,552 @@
+
+.divlink:hover{
+    cursor: pointer;
+    background-color:#E3DB0B;
+}
+.divlink p{
+    margin-top: 20px;
+}
+.divlink p a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.listeone ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.listeone ul li{
+    margin-left: 10px;
+    color: #111111;
+}
+.listmenu{
+    display: flex;
+    margin-left: 238px;
+}
+.souslistemenu div{
+
+    margin-left: 120px;
+}
+.listmenu div{
+    margin-right: -40px;
+    margin-left:25px;
+}
+.headerone{
+    color:#8D5121; 
+    background-color: #F3EA10; 
+}
+header{
+  position:fixed;
+  z-index: 4000;
+  width: 100%;
+}
+.headertwo{
+  background-color: white;
+}
+main{
+  padding-top: 150px;
+}
+.headerone a{
+color:#1f232c; 
+/* font-family: "Gilroy Light", sans-serif; */
+}
+.listetwo ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 29px;
+}
+.listetwo ul li{
+    margin-left: 35px;
+
+}
+.listetwo ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+.startlink{
+    margin-left:40px;
+    margin-right: 40px;
+}
+.logone{
+    margin-left: 40px;
+}
+.fgone img{
+    margin-left: 535px;
+    margin-top:-10px;
+}
+.fgone p{
+    margin-left: 490px;
+    margin-top:10px;
+    font-style: italic;
+    color: white;
+}
+.lineone{
+    margin-top:20px;
+    margin-left: 50px;
+}
+.litwo{
+    margin-top:20px;
+    margin-left: 50px;
+}
+#title1{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top:105px;
+    margin-right: 30px;
+}
+#spancree{
+    background-color: black;
+    opacity: 0.5;
+    color: white;  
+    text-align: center;
+    margin-top:-90px;
+    margin-right: 30px;
+
+}
+
+#cardtwo{
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url('https://jaunecongo.com/wp-content/uploads/2019/05/Patate20douce9_500x500.jpg');
+background-size: cover;
+}
+
+.bodys{
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url('https://jaunecongo.com/wp-content/uploads/2019/07/DSC03612-e1565954484396.jpg');
+  background-size: cover;
+  padding-bottom: 10px;
+}
+#title2{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top:105px;
+    margin-right: 30px;
+}
+#title3{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top:105px;
+    margin-right: 30px;
+}
+#title4{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top:105px;
+    margin-right: 30px;
+}
+#spancree2{
+    background-color: black;
+    opacity: 0.5;
+    color: white;  
+    text-align: center;
+    margin-top:-90px;
+    margin-right: 30px;
+
+}
+#spancree3{
+    background-color: black;
+    opacity: 0.5;
+    color: white;  
+    text-align: center;
+    margin-top:-90px;
+    margin-right: 30px;
+
+}
+#logs{
+    display: none;
+}
+#cardtwo h4,h3{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.middle h4,h3{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+.toppos{
+    margin-top: 20px;
+}
+.toppos1{
+    margin-top: 50px;
+}
+.bigtitle1{
+    background-color: #F3EA10;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.bigtitle1 h2{
+    text-align: center;
+}
+.bodys2 hr{
+   border: 1px solid #F3EA10;
+   position: relative;
+   top:95px;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.lithree{
+    margin-top: 20px;
+}
+.tolong{
+    width:250px;
+    overflow:hidden;
+    height:150px;
+    line-height:30px; 
+}
+.bodys2{
+    background-color: #2A2E36;
+}
+.colorbutt{
+    background-color:#F3EA10 ;
+    color:#2A2E36 ;
+    margin-left: 40px;
+}
+figure {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    color: #fff;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    border-bottom: 7px solid #f3ea10;
+}
+
+figure > img {
+    max-width: 100%;
+}
+
+figure figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+
+}
+figure a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+figure h2 {
+  /* padding: 10% 20px; */
+  background: rgba(0,0,0,.5);
+  vertical-align: middle;
+  position: absolute;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+figure:hover h2 {opacity: 0;}
+figcaption p {
+  font-size: 13px;
+  background: rgba(0,0,0,.4);
+  padding: 20px;
+  text-align: center;
+
+}
+figure, figure:before,figure:after,
+figure *,figure *:before {
+    box-sizing: border-box;
+    transition: all .35s ease;
+}
+
+figure figcaption {
+  opacity: 0;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+figure:hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(0, -3%);
+          transform: translate(0, -3%);
+}
+.description p{
+    font-size: 16px;
+    margin-right: 190px;
+    margin-top: 10px;
+}
+.produit span{
+    font-size: 26px;
+}
+.nomprod h4{
+    font-weight: bold;
+    color: #555555;
+}
+.btnpanier input{
+    background-color: #F3EA10; 
+    margin-top: 10px;
+}
+#plus{
+    background-color: #F3EA10; 
+    border-radius: 8px 8px 8px 8px;
+}
+#moins
+{
+    background-color: #F3EA10; 
+    border-radius: 8px 8px 8px 8px;
+}
+#numbers
+{
+width: 40px;
+}
+* SECTION PRODUIT */
+#produits {
+  padding: 50px;
+  background: #2b2e37;
+  text-align: center;
+  color: #fff;
+}
+.range {
+  display: grid;
+  grid-template-columns:10% 80% 10%;
+}
+
+h2 {
+  border-bottom: 1px solid #f3eb32;
+  font-size: 25px;
+  line-height: 0.01em;
+}
+
+h2 span {
+  background: #f3eb32;
+  padding: 10px 20px;
+  color: #1f232c;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 50px;
+  color: #1f232c;
+}
+
+.carte {
+  background: #fff;
+  /* padding: 20px; */
+  margin: 10px 10px;
+}
+
+.carte input[type="text"], #item input[type="text"] {
+  width: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+.carte p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.control, #item .control {
+  text-align: center;
+  display: inline-block;
+  width: 30px;
+  border-radius: 50%;
+  background: #f3eb32;
+  text-decoration: none;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+button {
+  border: none;
+  background: #f3eb32;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+
+.carte img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+#item {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: 50% 40% 10%;
+}
+
+#item img {
+  max-width: 100%;
+}
+
+#item .col {
+  margin: 0 20px;
+}
+
+#item ul li {
+  display: inline-block;
+  color: rgba(102, 102, 102, .7);
+}
+
+#item .petit-menu li:after {
+  padding: 0 5px;
+  content: '/'
+}
+
+#item .petit-menu li:last-child:after {
+  content: ''
+}
+
+#item ul li a {
+  color: rgba(102, 102, 102, .7);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#item h3 {
+  color: #555;
+  font-size: 25px;
+margin-left:-250px;
+}
+
+
+.sous-bar {
+  display: inline-block;
+  width: 30px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+.para-qt {
+  color: #777;
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.desc {
+  color: rgb(119, 119, 119);
+  line-height: 25.6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#item h6 {
+  color: #7a9c59;
+  font-size: 12.8px;
+  margin-bottom: 20px;
+}
+
+.line {
+  display: block;
+  border-bottom: 1px dotted #ddd;
+  margin-top: 50px;
+}
+
+.souspara {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #777;
+  line-height: 20px;
+}
+
+.btn-social {
+  font-size: 11px;
+  color: #fff;
+  padding: 3px 5px;
+  margin: 0px 3px 5px;
+  border-radius: 3px;
+}
+
+.fb {
+  background: #4c69ba;
+}
+
+.lk {
+  background: #1177b5;
+}
+
+.tw {
+  background: #1c95e0;
+}
+
+.nav {
+  font-size: 25px;
+  color: #c0c0c0;
+
+}
+.navigation{
+    display: flex;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons .iconify {
+  font-size: 30px;
+}
+.footers{
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+}
+.footers ul{
+  list-style-type: none;
+}
+.footers ul li{
+  border-bottom: 1px solid #63656C;
+  line-height:30px;
+}
+.sousBar{
+ display: inline-block;
+ width: 30px;
+ border-bottom: 4px solid #63656C;
+position: relative;
+top:-10px;
+left:40px;
+}
+.footers h5{
+  margin-left:40px;
+}
+.linkfoot3 p{
+  margin-left: 40px;
+}
+.footers{
+  background: #1F232C;
+  color: white;
+  padding-top: 25px;
+  margin-top: -10px;
+}
+
+@media screen and (max-width:700px) {
+  .items {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+
+  
+
+
+
+

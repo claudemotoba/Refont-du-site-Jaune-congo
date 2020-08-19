@@ -1,4 +1,4 @@
-const date = new Date(2020,4,15,19,00,00)
+const date = new Date(2020,6,16,19,00,00)
 
 console.log(date);
 

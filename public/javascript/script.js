@@ -1,8 +1,8 @@
-const input = document.querySelector('.aa')
-const controleplus = document.querySelector('.plusplus')
+const input = document.querySelectorAll('.aa')
+const controleplus = document.querySelectorAll('.plusplus')
 const moins = document.querySelector('.moins')
 
-console.log(input.value);
+//console.log(input.value);
 
 
 moins.addEventListener('click', function () {
